@@ -77,7 +77,7 @@ void setup() {
 
   
   // Allocate the buffer that will contain the ADPC notice
-  String s1 = "[{ \"id\": \"q1analytics\", \"text\": \"We track and analyse your visit(s) on this website, for improving our product; this places a cookie on your device to recognise you on subsequent page visits.\" },{ \"id\": \"q2recommendation\", \"text\": \"We observe your interaction with our content to personalise your experience by recommending content you may find of interest.\"}]";
+  String s1 = "[{ \"id\": \"q1analytics\", \"text\": \"We track and analyse your visit(s) in this mall, for improving our products.\" },{ \"id\": \"q2recommendation\", \"text\": \"We observe your interaction with our content to personalise your experience by recommending content you may find of interest.\"}]";
   // Escape quotes are important, and so is the fact that string is allocated in one line
   int pp_size = 400;  
   // Here buffer size is guessed, be wary!        
